@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Flask Web Sockets</title>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+    <style>
+      canvas {
+      display: block;
+      width: 1000px; 
+      height: 500px; 
+      border: 1px solid teal;
+      }
+
+      h1 {
+      color: teal;
+      }
+      p {
+      color: #00A;
+      }
+      body {
+      color: #04A;
+      background-color: #EFF;
+    </style>
+  </head>
+  <body>
+    <h1>Web Sockets Using Socket IO and Flask</h1>
+    <a href="https://flask-socketio.readthedocs.io/en/latest/">Flask Socket IO documentation</a>
+
+    <canvas id="canvas" width="1000px" height="500px">
+    </canvas>
+    <script>
+      canvasController();
+    </script>
+  </body>
+</html>
