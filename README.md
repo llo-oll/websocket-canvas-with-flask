@@ -6,4 +6,4 @@ The project uses [ Python Flask ]( http://flask.pocoo.org/ ) as a web framework,
 
 ## How to run
 With Python Flask and Flask SocketIO on your system you can run the project on localhost:5000 using the .runflask.sh script, which is in the root directory.
-To run on your local network uncomment the ip address in the script. 
+To run on your local network uncomment the ip address in the script.  
